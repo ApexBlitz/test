@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    min-width: 250px;
+    height: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Indique que la carte est cliquable */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    margin: 0;
+}
+
+.icon {
+    font-size: 3em; /* Taille de l'icône */
+    color: #4285F4; /* Couleur bleue de Google */
+    margin-bottom: 10px;
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+        height: auto;
+    }
+}
