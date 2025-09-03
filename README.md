@@ -34,9 +34,3 @@ Ce projet est un tableau de bord simple et réactif qui présente quatre service
 * **Ajouter des cartes** : Ajoutez une nouvelle carte en HTML et mettez à jour le tableau dans `script.js`.
 * **Changer les services** : Modifiez les URL et les icônes dans les fichiers HTML et JavaScript.
 * **Modifier le style** : Changez les couleurs, les polices, et l'espacement dans `style.css`.
-
----
-
-### Auteur
-
-Créé par [Votre Nom/Pseudo].
